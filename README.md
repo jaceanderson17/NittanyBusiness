@@ -38,3 +38,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+When starting the app always make sure to run "npm i" in the terminal
+
+Setting Up DB:
+
+1. Download MySQL and MySQL Workbench and create a local instance.
+2. Create a schema for NittanyBusiness
+3. Add the relevant data and tables provided on Canvas
+4. Create a .env file on your local development environment and add the following infomation which will be unique for each of us:
+   (.env is in gitignore so do not worry about commiting it)
+   DB_HOST=localhost (don't change)
+   DB_PORT=3306 (don't change)
+   DB_USER=your_username
+   DB_PASSWORD=your_password
+   DB_NAME=your_database
+
+   Ex:
+   DB_USER=root
+   DB_PASSWORD=12345
+   DB_NAME=NittanyBusiness (name of the schema you've created)
